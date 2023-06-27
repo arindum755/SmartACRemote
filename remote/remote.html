@@ -4,8 +4,8 @@
     <title>Smart AC Remote</title>
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#2b5876">
-    <link rel="icon" sizes="128x128" href="http://test.udvavan.co.in/favicon.png">
-    <link rel="icon" type="image/png" href="http://test.udvavan.co.in/favicon.png" />
+    <link rel="icon" sizes="128x128" href="https://arindum755.github.io/SmartACRemote/remote/favicon.png">
+    <link rel="icon" type="image/png" href="https://arindum755.github.io/SmartACRemote/remote/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -89,7 +89,7 @@
             <span class="mr-2"><i class="fas fa-arrows-alt-v"></i> <span id="selectedOrientationValue">Vertical</span></span>
             <span><i class="fas fa-fan"></i> <span id="selectedFanSpeedValue">1</span></span>
         </div>
-        <div class="counter">17°C</div>
+        <div class="counter">17Â°C</div>
         <button class="btn btn-light button" onclick="decrement(); triggerHapticFeedback();" disabled>&darr;</button>
         <button class="btn btn-light button" onclick="increment(); triggerHapticFeedback();" disabled>&uarr;</button>
         <div class="mode-buttons">
@@ -218,7 +218,7 @@
         function increment() {
             if (powerOn && counter < 30) {
                 counter++;
-                counterElement.textContent = counter + '°C';
+                counterElement.textContent = counter + 'Â°C';
                 gauge.set(counter);
             }
         }
@@ -226,7 +226,7 @@
         function decrement() {
             if (powerOn && counter > 17) {
                 counter--;
-                counterElement.textContent = counter + '°C';
+                counterElement.textContent = counter + 'Â°C';
                 gauge.set(counter);
             }
         }
