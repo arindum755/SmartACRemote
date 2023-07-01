@@ -31,10 +31,14 @@ The following Arduino libraries are used in this project:
 **Make sure to install these libraries in your Arduino IDE before compiling and uploading the code.**
 
 ### Setup
-1.	Connect the IR receiver and IR LED to the appropriate GPIO pins on the ESP8266 microcontroller.
+1.	Connect the IR LED to the appropriate GPIO pins on the ESP8266 microcontroller.
 2.	Modify the ssid and password variables in the code to match your Wi-Fi network credentials.
 3.	Set the remotename variable to the desired name for your AC remote.
 4.	Upload the code to the ESP8266 microcontroller.
+
+<p align="center">
+<img src="https://github.com/arindum755/SmartACRemote/assets/137756163/993bae8b-1846-436d-a0ae-360cb11e69b8.png" alt="circuit" width="600">
+</p>
 
 ### Usage
 1.	Once the code is uploaded, the ESP8266 will connect to the Wi-Fi network and obtain an IP address.
