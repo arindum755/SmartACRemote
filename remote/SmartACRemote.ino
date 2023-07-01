@@ -12,8 +12,8 @@ const uint16_t kIrLed = 4;    // ESP8266 GPIO pin to use. Recommended: 4 (D2).
 IRCoolixAC ac(kIrLed);        // Set the GPIO used for sending messages.
 
 // Your Wifi Username & Password!
-const char* ssid = "Home_First";
-const char* password = "Mummy321}16";
+const char* ssid = "********";
+const char* password = "*******";
 
 // Change this to set your Remote Name.
 String remotename = "Living Room AC";
