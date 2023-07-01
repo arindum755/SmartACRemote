@@ -48,6 +48,10 @@ The following Arduino libraries are used in this project:
 5.	The current status of the AC (power, mode, fan speed, temperature) is displayed on the web interface.
 6.	You can also retrieve the current AC data in JSON format by accessing http://<IP_ADDRESS>/getdata.
 
+<p align="center">
+<img src="https://github.com/arindum755/SmartACRemote/assets/137756163/35d8e35b-0e05-46a3-87ea-4228ef75de2f.png" alt="remote" width="400">
+</p>
+
 ### API Endpoints
 The following API endpoints are available:
 -	/getdata: Returns the current AC data in JSON format.
