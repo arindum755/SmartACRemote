@@ -125,7 +125,7 @@ const char MAIN_page[] PROGMEM = R"=====(
             <button class="btn btn-light button" onclick="incrementFanSpeed(); triggerHapticFeedback();" disabled>Fan &uarr;</button>
         </div>
         <div class="creator">
-            <a href="#" target="_blank" style="text-decoration: none;color: #fff;">Created By Arindum</a>
+            <a href="https://github.com/arindum755/SmartACRemote" target="_blank" style="text-decoration: none;color: #fff;">Created By Arindum</a>
         </div>
     </div>
     <script>
