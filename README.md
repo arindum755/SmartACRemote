@@ -1,5 +1,7 @@
-
-# Smart AC Remote
+<p align="center">
+<img src="https://github.com/arindum755/SmartACRemote/assets/137756163/caf8f55b-1694-4f73-85cc-bb788482b454.png" alt="favicon" width="100">
+</p>
+<h1 align="center">Smart AC Remote</h1>
 
 Tiny ESP8266 based remote to control your home Air Conditioner when your physical remote run out of battery.
 
