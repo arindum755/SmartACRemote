@@ -7,6 +7,7 @@
 #include <IRremoteESP8266.h>
 #include <ir_Coolix.h>
 #include "index.h"            //Our HTML webpage contents
+#include "favicon.h"          //Our SVG ICON contents
 
 const uint16_t kIrLed = 4;    // ESP8266 GPIO pin to use. Recommended: 4 (D2).
 IRCoolixAC ac(kIrLed);        // Set the GPIO used for sending messages.
@@ -37,10 +38,15 @@ void handleRoot() {
   server.send(302, "text/plain", "Redirecting...");
 }
 
+
 void handleIndex() {
-  String hostName = server.arg("host");
   String s = MAIN_page;             //Read HTML contents
   server.send(200, "text/html", s); //Send web page
+}
+
+void handleIcon() {
+  String i = ICON_page;                 //Read SVG ICON contents
+  server.send(200, "image/svg+xml", i); //Send ICON
 }
 
 // Data sent to AC Remote
@@ -95,6 +101,7 @@ void setup(void) {
   }
 
   server.on("/", handleRoot);               // Root Handler  
+  server.on("/favicon.svg", handleIcon);    // Favicon  
   server.on("/index.html", handleIndex);    // Register the handleIndex function for the index.html path
   server.on("/getdata", getData);           // Get Current AC data
   server.on("/togglePower", togglePower);   // Power On/Off
