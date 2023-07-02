@@ -14,7 +14,7 @@ To use this code, you will need the following hardware:
 -	220 Ohm Resistor
 -	Transistor - NPN BC337
 - IR LED (950nm)
--	AC unit compatible with the ir_Coolix library  (Midea or Carrier AC Unit -> Remote : RG56N/R3 and RG56CMI-WP2 )
+-	AC unit compatible with the ir_Coolix library  **(Midea or Carrier AC Unit -> Remote : RG56N/R3 and RG56CMI-WP2)**
 
 ### Libraries Used
 
