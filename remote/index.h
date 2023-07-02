@@ -8,8 +8,8 @@ const char MAIN_page[] PROGMEM = R"=====(
     <meta http-equiv="Expires" content="0">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#2b5876">
-    <link rel="icon" sizes="128x128" href="https://arindum755.github.io/SmartACRemote/remote/favicon.png">
-    <link rel="icon" type="image/png" href="https://arindum755.github.io/SmartACRemote/remote/favicon.png" />
+    <link rel="icon" sizes="128x128" href="/favicon.svg">
+    <link rel="icon" type="image/png" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
