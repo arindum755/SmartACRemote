@@ -7,13 +7,15 @@ Tiny ESP8266 based remote to control your home Air Conditioner when your physica
 
 This repository contains the code for an AC remote control using an ESP8266 microcontroller. It allows you to control an AC unit remotely through a web interface.
 
-## Advantage
+### USP
 
-- There are numerous solutions available for Arduino or ESP8266 based SoCs, but many of them lack practicality as retail universal remotes.
+- There are numerous solutions available for Arduino or ESP8266 based SoCs, but many of them lack practicality as retail      universal remotes.
 - An amplifier circuit has be implemented to enable control from any location within the room.
 - If you have concerns about proprietary code and foreign servers, this solution can be particularly useful.
 - The universal user interface (UI) is highly adaptable and can be customized to meet specific requirements.
 - It is a highly cost-effective and straightforward solution to construct.
+- The solution does not require any third-party services as it is self-hosted on the ESP8266 device.
+- Multiple remotes can be created and added to the mobile homescreen using the "Add to Homescreen" button in the browser.
 
 ### Hardware Requirements
 
